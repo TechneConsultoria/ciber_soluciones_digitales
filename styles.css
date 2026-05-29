@@ -133,8 +133,8 @@ a {
 .hero {
   position: relative;
   display: grid;
-  min-height: 92svh;
-  padding: 118px clamp(18px, 6vw, 84px) 46px;
+  min-height: 86svh;
+  padding: 108px clamp(18px, 6vw, 84px) 54px;
   overflow: hidden;
 }
 
@@ -163,7 +163,7 @@ a {
   position: relative;
   z-index: 2;
   align-self: center;
-  width: min(690px, 100%);
+  width: min(760px, 100%);
 }
 
 .eyebrow {
@@ -200,9 +200,9 @@ p {
 
 h1 {
   margin: 0;
-  max-width: 12ch;
-  font-size: clamp(3.1rem, 7vw, 6.8rem);
-  line-height: 0.91;
+  max-width: 720px;
+  font-size: clamp(2.9rem, 5.7vw, 5.45rem);
+  line-height: 0.96;
   letter-spacing: 0;
   text-shadow: 0 10px 34px rgba(255, 255, 255, 0.62);
 }
@@ -258,7 +258,7 @@ h1 {
 .hero-card {
   position: absolute;
   right: clamp(18px, 6vw, 84px);
-  top: clamp(190px, 34vh, 300px);
+  top: clamp(170px, 31vh, 260px);
   z-index: 3;
   width: min(330px, calc(100% - 36px));
   padding: 20px;
@@ -298,7 +298,7 @@ h1 {
   grid-template-columns: repeat(4, minmax(0, 1fr));
   gap: 14px;
   width: min(1320px, calc(100% - clamp(36px, 8vw, 112px)));
-  margin: -44px auto 0;
+  margin: -28px auto 0;
 }
 
 .highlight-strip article {
@@ -689,7 +689,7 @@ h1 {
   .hero {
     min-height: auto;
     padding-top: 92px;
-    padding-bottom: 88px;
+    padding-bottom: 72px;
   }
 
   .hero-overlay {
@@ -699,7 +699,7 @@ h1 {
   }
 
   h1 {
-    max-width: 13ch;
+    max-width: 720px;
   }
 
   .service-grid,
@@ -750,7 +750,8 @@ h1 {
   }
 
   h1 {
-    font-size: clamp(2.72rem, 16vw, 4.8rem);
+    font-size: clamp(2.35rem, 12.5vw, 3.55rem);
+    line-height: 1;
   }
 
   .hero-copy {
